@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Product | AllGeorgia</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;900&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/56bf69d123.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index2.html"><img src="My project.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li>
+                            <a href="index2.html">Home<i class="fa-solid fa-house"></i></a>
+                        <li>
+                            <a href="allprod.html">Shop<i class="fa-solid fa-shop"></i></a>
+                        </li>
+                        <li>
+                            <a href="">Accessories<i class="fa-solid fa-arrow-down"></i></a>
+                        </li>
+                        <li>
+                            <a href="">FAQ<i class="fa-brands fa-rocketchat"></i></a>
+                        </li>
+                        <li>
+                            <a href="acc.html" target="_blank">Account<i class="fa-regular fa-user"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="cart.png" width="30px" height="30px">
+                <img  src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+        </div>
+   <div class="container">   
+    <div class="small-contrainer">
+
+        <div class="row-row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Shorting</option>
+                <option>Short by price</option>
+                <option>Short by popularity</option>
+                <option>Short by rating</option>
+                <option>Short by sale</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="colm-5">
+                <img id="coder" src="coder.png">
+                <h4>Hello World Computer Programmer Coding Coffe Mug</h4>
+                <div class="rating" id="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$10.00</p>
+                <a href="chika.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colm-5">
+                <img src="led.png">
+                <h4>GUPUP 100 FT LED Strip Lights,Rope Lights</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$23.90</p>
+                <a href="redlight.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colm-5">
+                <img id="phillips" src="macbook.png">
+                <h4>Apple 2023 MacBook Pro Laptop M2 Pro chip with 10‑core CPU</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$1,941</p>
+                <a href="macbook.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colm-5">
+                <img src="iph13.png">
+                <h4>iPhone 13 Pro Max, 256GB, Sierra Blue - Unlocked</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$990.99</p>
+                <a href="iphone13.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>  
+            <div class="colm-5">
+                <img id="fri" src="fri.png">
+                <h4>GoWISE USA 1700-Watt 5.8-QT 8-in-1r</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$59.80</p>
+                <a href="fri.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>  
+            <div class="colm-5">
+                <img id="jeans1" src="lock.png">
+                <h4>Sifely Smart Lock, Keyless Entry Door Lock</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$121.99</p>
+                <a href="saketi.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colm-5">
+                <img id="cap" src="pirb.png">
+                <h4>Funight KN95 Face Masks 50 Pack 5-Ply Breathable</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$32.00</p>
+                <a href="pirbade.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colm-5">
+                <img id="kamera" src="kam.png">
+                <h4>Blink Outdoor - wireless, weather-resistant camera</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$29.33</p>
+                <a href="kamera.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colmm-6">
+                <img id="chain" src="elst.png">
+                <h4>CHRLEISURE Leggings with Pockets for Women</h4>
+                <div class="rating" id="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$21.20</p>
+                <a href="elastik1.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img id="smart" src="xalt.png">
+                <h4>NY Threads Man Fleece Shawl Collar Bathrobe </h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$104.99</p>
+                <a href="xalati.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img id="holder" src="kvemo.png">
+                <h4>Urban CoCo Women's Basic Versatile Stretchy</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$11.98 - $12.73</p>
+                <a href="kaba.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img id="gopro" src="jins.png">
+                <h4>vanberfia Women Mid Waist Stretchy  Denim Pants</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$64.99</p>
+                <a href="jeans3.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <!-- kveda sivrce -->
+            <div class="colmm-6">
+                <img src="chair.png">
+                <h4>High-Back Gaming Chair PC Office Chair Computer Racing..</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$109.99</p>
+                <a href="skami.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img  src="asus.png">
+                <h4>ASUS ROG Strix 27” 2K HDR Gaming Monitor Extreme Low Motion Blur Sync</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$649.00</p>
+                <a href="auzi.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img id="auzi" src="intex.png">
+                <h4>INTEX 26701EH 10ft x 30in Prism Frame Pool with Cartridge Filter Pump</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>21.34$</p>
+                <a href="auzi.html"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img src="bref.png" target="_blank">
+                <h4>Listerine Freshburst Antiseptic Mouthwash with Germ-Killing Oral Care</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$136.77</p>
+                <a href="care.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+        </div>
+    </div>   
+    <div class="page-btn">
+        <a href="allprod.html"><span>1</span></a>
+        <a href="allprod2.html"><span>2</span></a>
+        <a href="allprod3.html"><span>3</span></a>
+        <a href="allprod4.html"><span>4</span></a>
+        <a href=""><span>&#8594;</span></a>
+    </div>
+   </div> 
+
+             <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3> 
+                    <p>Download App for Ios & Android Devices.</p>
+                    <div class="applogo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img id="logfut" src="My project.png">
+                    <p>Our goal is to get you a high-quality product in a short time</p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Socials</h3> 
+                    <ul>
+                        <a href=""><li>Instagram <i class="fa-brands fa-instagram"></i></li></a>
+                        <a href=""><li>Youtube <i class="fa-brands fa-youtube"></i></li></a>
+                        <a href=""><li>Tik-tok <i class="fa-brands fa-tiktok"></i></li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright - @2023</p>
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight = "0px")
+            {
+                MenuItems.style.maxHeight ="200px";
+            }  
+        else
+            {
+            MenuItems.style.maxHeight = "0px";
+            }
+        }    
+    </script>
+
+</body>
+</html>

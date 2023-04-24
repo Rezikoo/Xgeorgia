@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Product | AllGeorgia</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;900&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/56bf69d123.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index2.html"><img src="My project.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li>
+                            <a href="index2.html">Home<i class="fa-solid fa-house"></i></a>
+                        <li>
+                            <a href="allprod.html">Shop<i class="fa-solid fa-shop"></i></a>
+                        </li>
+                        <li>
+                            <a href="">Accessories<i class="fa-solid fa-arrow-down"></i></a>
+                        </li>
+                        <li>
+                            <a href="">FAQ<i class="fa-brands fa-rocketchat"></i></a>
+                        </li>
+                        <li>
+                            <a href="acc.html" target="_blank">Account<i class="fa-regular fa-user"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="cart.png" width="30px" height="30px">
+                <img  src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+        </div>
+   <div class="container">   
+    <div class="small-contrainer">
+
+        <div class="row-row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Shorting</option>
+                <option>Short by price</option>
+                <option>Short by popularity</option>
+                <option>Short by rating</option>
+                <option>Short by sale</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="colm-5">
+                <img id="coder" src="dove.png">
+                <h4>Dove Deep Moisture Body Wash with Pump For Dry Skin Moisturizing</h4>
+                <div class="rating" id="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$15.23</p>
+                <a href="dove.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colm-5">
+                <img src="kidsbuble.png">
+                <h4>ACT Kids Anticavity Fluoride Rinse Bubble Gum</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$17.40</p>
+                <a href="bubble.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colm-5">
+                <img id="phillips" src="degree.png">
+                <h4>Degree Men Antiperspirant Deodorant 48-Hour Odor Protection Cool</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$21.79</p>
+                <a href="doree.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colm-5">
+                <img src="sholders.png" target="_blank">
+                <h4>Head & Shoulders Clinical Strength Shampoo</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$20.98</p>
+                <a href="shoulder.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>  
+            <div class="colm-5">
+                <img id="fri" src="pods.png">
+                <h4>Apple AirPods (3nd Generation) </h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$180.50</p>
+                <a href="pods.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>  
+            <div class="colm-5">
+                <img id="jeans1" src="garmanin.png">
+                <h4>Garmin Forerunner® 955 Solar + GPS </h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$532.31</p>
+                <a href="garmanin.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colm-5">
+                <img id="cap" src="racia.png">
+                <h4>Garmin inReach Mini 2, Lightweight Satelite</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$259.77</p>
+                <a href="racia.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colm-5">
+                <img id="kamera" src="gps.png">
+                <h4>Garmin eTrex 10 Worldwide Handheld GPS Navigator</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$259.77</p>
+                <a href="gps.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colmm-6">
+                <img id="chain" src="microf.png">
+                <h4>Audio-Technica AT2020 Cardioid Condenser Studio </h4>
+                <div class="rating" id="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$99.00</p>
+                <a href="micro.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img id="smart" src="jbll.png">
+                <h4>JBL Partybox 310 - Portable Party Speaker</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$344.99</p>
+                <a href="jbl.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img id="crocs" src="crocss.png">
+                <h4>Crocs Unisex-Child Classic Littles Clogs |Baby Shoes | L/M/XL/XXL..</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$25.80</p>
+                <a href="crocs.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img id="gopro" src="armor1.png">
+                <h4>Under Armour Girls' Fly by Shorts</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$10.76</p>
+                <a href="short.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <!-- kveda sivrce -->
+            <div class="colmm-6">
+                <img src="trusss.png">
+                <h4>High-Back Gaming Chair PC Office Chair Computer Racing..</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$15.75</p>
+                <a href="trus.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img  src="hoodie.png">
+                <h4>Gildan Youth Hooded Sweatshirt, Sportswear Boy's Style G18500B</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$14.99</p>
+                <a href="hoodie.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img id="auzi" src="forces.png">
+                <h4>Nike Unisex Air Force 1 LE (GS) Sneaker, Kids, White/White</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$114.95</p>
+                <a href="force.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+            <div class="colmm-6">
+                <img src="forcb.png">
+                <h4>Nike Men's Air Force 1 '07 An20 Basketball Shoe (Black/Black)</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$114.95</p>
+                <a href="blackforce.html" target="_blank"><button class="btnn_now">Buy Now</button></a>
+            </div>
+        </div>
+    </div>   
+    <div class="page-btn">
+        <a href="allprod.html"><span>1</span></a>
+        <a href="allprod2.html"><span>2</span></a>
+        <a href="allprod3.html"><span>3</span></a>
+        <a href="allprod4.html"><span>4</span></a>
+        <a href=""><span>&#8594;</span></a>
+    </div>
+   </div> 
+
+             <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3> 
+                    <p>Download App for Ios & Android Devices.</p>
+                    <div class="applogo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img id="logfut" src="My project.png">
+                    <p>Our goal is to get you a high-quality product in a short time</p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Socials</h3> 
+                    <ul>
+                        <a href=""><li>Instagram <i class="fa-brands fa-instagram"></i></li></a>
+                        <a href=""><li>Youtube <i class="fa-brands fa-youtube"></i></li></a>
+                        <a href=""><li>Tik-tok <i class="fa-brands fa-tiktok"></i></li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright - @2023</p>
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight = "0px")
+            {
+                MenuItems.style.maxHeight ="200px";
+            }  
+        else
+            {
+            MenuItems.style.maxHeight = "0px";
+            }
+        }    
+    </script>
+
+</body>
+</html>
